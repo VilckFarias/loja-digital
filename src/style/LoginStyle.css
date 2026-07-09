@@ -1,0 +1,46 @@
+* {
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+html, body {
+    height: 100%;
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav {
+        gap: 20px;
+        width: 178px;
+        height: 64px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+
+        a{
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            gap: 4.5px;
+            margin: auto;
+            span {
+                font-size: 20px;
+                text-transform: capitalize;
+                font-weight: 700;
+                color: #C92071;
+
+            }
+            
+        }
+        
+
+    }
+}
