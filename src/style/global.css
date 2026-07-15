@@ -1,17 +1,3 @@
-* {
-    font-family: 'Segoe UI', sans-serif;
-    color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-
-}
-html, body {
-    height: 100%;
-}
-
 header { 
     display: flex;
     justify-content: center;
